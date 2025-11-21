@@ -1,0 +1,12 @@
+File bz.fchk
+Angstrom
+Multipoles
+  Limit 2
+  Switch 4.0
+  Radius H 0.35
+  Punch file.punch
+  ADD Ac  0.000000 -0.000001  0.000000
+  ADD A1  0.000000 -0.000001  1.000000
+  ADD A-1  0.000000 -0.000001 -1.000000
+Start
+Finish

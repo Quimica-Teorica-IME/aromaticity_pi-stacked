@@ -1,0 +1,6 @@
+System	bz.output
+Ring	|Q2|_(ring atoms)	Q2_(zz,ring atoms)	|Q2|(0)	Q2(0)zz	|Q2|(1)	Q2(1)zz	|Q2|(-1)	Q2(-1)zz
+Ring 1: (C-1, C-2, C-3, C-4, C-5, C-6)	5.411490	-3.962170	0.488407	0.488407	0.763789	0.763789	0.763789	0.763789
+
+	|Q2_(origin)	|Q2|_(zz,origin)
+Total descriptors referred to origin	5.337766	-5.337766

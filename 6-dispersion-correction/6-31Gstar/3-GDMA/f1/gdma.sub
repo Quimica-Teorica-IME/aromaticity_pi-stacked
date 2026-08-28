@@ -1,0 +1,12 @@
+#!/bin/bash
+#SBATCH --job-name=gdma-f1
+#SBATCH --partition=normal
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=16
+#SBATCH --time=720:00:00
+
+module load gdma/2.3.3
+
+export SLURM_SUBMIT_DIR=$SLURM_SUBMIT_DIR
+cd $SLURM_SUBMIT_DIR
+gdma < f1.input > f1.output

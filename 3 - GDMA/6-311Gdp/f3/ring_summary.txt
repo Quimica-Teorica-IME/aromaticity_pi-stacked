@@ -1,0 +1,7 @@
+Ring Order | Ring Label | Atoms
+    1      |     A      | C-12 C-14 C-48 C-51 C-54 C-56
+    2      |     B      | C-5 C-12 C-14 C-19 C-21
+    3      |     C      | C-19 C-21 C-24 C-28 C-30 C-33
+    4      |     D      | C-11 C-16 C-47 C-50 C-53 C-58
+    5      |     E      | C-1 C-11 C-16 C-17 C-22
+    6      |     F      | C-17 C-22 C-23 C-26 C-31 C-32

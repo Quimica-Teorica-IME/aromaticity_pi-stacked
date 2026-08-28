@@ -1,0 +1,19 @@
+At line 568 of file gdma.f90 (unit = 9, file = 'f4-6-311Gdp.fchk')
+Fortran runtime error: End of file
+
+Error termination. Backtrace:
+#0  0x7f53b05d8860 in ???
+#1  0x7f53b05d93b9 in ???
+#2  0x7f53b05da07f in ???
+#3  0x7f53b080c80b in ???
+#4  0x7f53b080ce02 in ???
+#5  0x7f53b080951b in ???
+#6  0x7f53b080e4e4 in ???
+#7  0x7f53b080f58b in ???
+#8  0x4061ed in ???
+#9  0x40977d in ???
+#10  0x4022ec in ???
+#11  0x7f53b02aaeaf in ???
+#12  0x7f53b02aaf5f in ???
+#13  0x402324 in ???
+#14  0xffffffffffffffff in ???

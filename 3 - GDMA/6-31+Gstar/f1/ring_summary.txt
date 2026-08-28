@@ -1,0 +1,4 @@
+Ring Order | Ring Label | Atoms
+    1      |     A      | C-4 C-5 C-6 C-7 C-8 C-9
+    2      |     B      | C-1 C-2 C-3 C-4 C-5
+    3      |     C      | C-2 C-3 C-14 C-15 C-16 C-17

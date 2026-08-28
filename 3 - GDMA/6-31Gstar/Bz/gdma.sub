@@ -1,0 +1,12 @@
+#!/bin/bash
+#SBATCH --job-name=gdma-bz
+#SBATCH --partition=ryzen7
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=2
+#SBATCH --time=720:00:00
+
+module load gdma/2.3.3
+
+export SLURM_SUBMIT_DIR=$SLURM_SUBMIT_DIR
+cd $SLURM_SUBMIT_DIR
+gdma < bz.input > bz.output

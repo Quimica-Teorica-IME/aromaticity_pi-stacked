@@ -1,0 +1,132 @@
+Q2 BASIS-SET MACHINE-LEARNING ANALYSIS
+======================================
+Date: 2026-08-26
+
+EXECUTIVE STATUS
+----------------
+The available result files contain the normalized dataset (norm.csv). Therefore the conclusions below are valid for normalized data only and must not be generalized to non-normalized data.
+
+The normalized-data analysis did successfully produce regression CV results, grouped CV results, SHAP values, grouped permutation importance, ablation results, reverse basis-set classification, correlations, variance metrics, fitted models, and 57 PNG plus 57 PDF figures.
+
+PRIMARY SCIENTIFIC QUESTION
+---------------------------
+Question: after controlling for System and Ring, how much additional information about each descriptor is associated with Basis Set?
+
+The primary evidence is grouped CV, ablation, grouped SHAP, and grouped permutation importance. Grouped CV holds every System/Ring combination entirely inside either the training or test fold, so it avoids the most important structure-level leakage.
+
+NORMALIZED DATA: GROUPED-CV RESULTS
+------------------------------------
+Descriptor                         Grouped R2       Grouped RMSE       Grouped MAE
+|Q2|_(ring atoms)                  0.5858            0.05113            0.03831
+Q2_(zz-ring atoms)                  0.6518            0.09053            0.07369
+|Q2|(0)                             0.3749            0.01668            0.01124
+Q2(0)zz                             0.8185            0.02899            0.02237
+|Q2|(1)                             -0.5566           0.10736            0.09231
+Q2(1)zz                             -0.5033           0.13667            0.11569
+|Q2|(-1)                            0.6530            0.03129            0.02377
+Q2(-1)zz                            0.3603            0.13779            0.09802
+
+The negative grouped R2 values for |Q2|(1) and Q2(1)zz mean that the full categorical model predicts these held-out System/Ring groups worse than a test-fold mean baseline. This is a warning against claiming strong generalization for those targets, not evidence by itself that Basis Set is important. The grouped R2 values are also not directly comparable across descriptors with different scales; RMSE and MAE should be interpreted on the descriptor's own scale.
+
+GROUPED SHAP IMPORTANCE: NORMALIZED DATA
+----------------------------------------
+Target                         System        Ring          Basis Set
+|Q2|_(ring atoms)              0.01956       0.11456       0.01275
+Q2_(zz-ring atoms)              0.02486       0.28818       0.01698
+|Q2|(0)                         0.00315       0.07704       0.00273
+Q2(0)zz                         0.00936       0.19111       0.00401
+|Q2|(1)                         0.06170       0.10916       0.01118
+Q2(1)zz                         0.05893       0.19935       0.00757
+|Q2|(-1)                        0.00607       0.11710       0.01064
+Q2(-1)zz                        0.01538       0.25489       0.01324
+
+SHAP grouping was performed by summing the absolute SHAP contributions of all one-hot levels belonging to one original variable for each observation, then averaging over observations. Thus the comparison is System versus Ring versus Basis Set, not individual dummy columns.
+
+Basis Set is smaller than Ring for all eight descriptors. Its relative contribution is not zero, but it is consistently secondary. Among the four absolute descriptors, the largest Basis Set SHAP value is for |Q2|_(ring atoms) (0.01275), followed by |Q2|(-1) (0.01064), |Q2|(1) (0.01118), and |Q2|(0) (0.00273). These magnitudes alone do not establish physical importance or independence.
+
+GROUPED PERMUTATION IMPORTANCE: NORMALIZED DATA
+------------------------------------------------
+Permutation importance is measured as increase in RMSE after jointly permuting an original categorical variable in the held-out grouped fold.
+
+Target                         System        Ring          Basis Set
+|Q2|_(ring atoms)              0.00314       0.07726       0.00105
+Q2_(zz-ring atoms)              0.00087       0.19230       0.00354
+|Q2|(0)                        -0.00004       0.06512       0.000003
+Q2(0)zz                         0.00122       0.13503       0.00039
+|Q2|(1)                         0.01062       0.03349       0.00087
+Q2(1)zz                         0.00553       0.07070       0.00055
+|Q2|(-1)                        -0.00011       0.07565       0.00269
+Q2(-1)zz                        -0.00413       0.12708       0.00283
+
+Ring ranks first for every target. Basis Set is much smaller than Ring for every target. Some System and Basis Set means are near zero or negative; this can occur with small grouped test folds and means that the permutation estimate is uncertain rather than meaningfully negative physical influence.
+
+ABLATION: SYSTEM + RING VERSUS SYSTEM + RING + BASIS SET
+----------------------------------------------------------
+Delta R2 is Model A minus Model B. Positive values favor including Basis Set. RMSE improvement is Model B RMSE minus Model A RMSE; positive values favor including Basis Set.
+
+Target                         Delta R2       Interpretation
+|Q2|_(ring atoms)              -0.0115        no gain; slight degradation
+Q2_(zz-ring atoms)              -0.0047        no gain; slight degradation
+|Q2|(0)                         -0.1127        no gain; worse with Basis Set
+Q2(0)zz                          0.0028        effectively negligible gain
+|Q2|(1)                          0.0596        small positive R2 change, but both models have poor negative grouped R2
+Q2(1)zz                          0.0474        small positive R2 change, but both models have poor negative grouped R2
+|Q2|(-1)                         0.0092        very small gain
+Q2(-1)zz                         -0.0121        no gain; slight degradation
+
+For the four requested absolute descriptors, the data do not support a simple claim that the +/-1 descriptors receive a large and reliable basis-set information gain. The |Q2|(1) ablation difference is positive, but it is modest relative to the poor absolute predictive performance and should be treated cautiously. |Q2|(0) shows a negative ablation difference in this run, while |Q2|_(ring atoms) shows essentially no gain.
+
+REVERSE BASIS-SET CLASSIFICATION: NORMALIZED DATA
+--------------------------------------------------
+There are four basis sets, so the random baseline is 0.25 accuracy.
+
+Descriptor                         Accuracy       Baseline
+|Q2|_(ring atoms)                  0.2755         0.25
+Q2_(zz-ring atoms)                  0.2559         0.25
+|Q2|(0)                             0.3151         0.25
+Q2(0)zz                             0.3479         0.25
+|Q2|(1)                             0.2551         0.25
+Q2(1)zz                             0.2489         0.25
+|Q2|(-1)                            0.2459         0.25
+Q2(-1)zz                            0.2484         0.25
+
+Classification is exploratory only. The results show little basis-set classification signal for |Q2|(1), |Q2|(-1), and their zz descriptors. The largest above-baseline values occur for |Q2|(0) and Q2(0)zz, contrary to the proposed expectation that +/-1 would necessarily be most basis-set encoded. This does not prove basis-set independence because classification is difficult with this small dataset and one descriptor alone.
+
+CORRELATION AND VARIABILITY
+---------------------------
+The correlation file contains 128 pairwise rows: 8 descriptors x 4 x 4 basis-set pairs for the normalized data. These correlations should be used to assess whether basis-set rankings are preserved, separately from ML. High Pearson/Spearman correlation means structures retain their relative ordering across basis sets; it does not mean the absolute basis-set differences are negligible.
+
+The variance file contains within-System/Ring basis-set variance, total variance, mean absolute differences, coefficient of variation, maximum ranges, and a mixed-model variance-related quantity. The mixed-model quantity should be interpreted cautiously: the current output stores variance of fitted values, not a formal proportion of variance explained by the Basis Set fixed effect. It should not be reported as a causal variance component without a more explicit mixed-model decomposition.
+
+ARE THE ANALYSES COMPLETE?
+---------------------------
+Not yet for the original scientific request.
+
+Completed for normalized data:
+- ordinary repeated 5-fold CV with 20 repeats;
+- grouped repeated CV with 20 repeats and 5 folds;
+- Random Forest regression for all eight descriptors;
+- grouped SHAP and grouped permutation importance;
+- grouped-CV ablation;
+- reverse basis-set classification;
+- correlations and variance outputs;
+- saved models and figures.
+
+Still required:
+- successful full rerun for non-norm.csv;
+- inspection of the corrected non-normalized result tables;
+- final interpretation combining both normalization states;
+- confidence intervals or formal uncertainty summaries if they are required for manuscript reporting.
+
+SCIENTIFIC CONCLUSION FROM CURRENT NORMALIZED RESULTS
+------------------------------------------------------
+Directly demonstrated: Ring identity is the dominant predictive variable in every normalized descriptor examined. Basis Set has consistently smaller grouped SHAP and grouped permutation importance than Ring. Adding Basis Set provides little or no grouped-CV improvement for |Q2|_(ring atoms), |Q2|(0), and |Q2|(-1); the |Q2|(1) improvement is modest but occurs while grouped predictive performance remains poor.
+
+Consistent with the proposed hypothesis: |Q2|_(ring atoms) and |Q2|(0) appear comparatively insensitive to basis-set identity in the sense of small grouped permutation importance and small or negative ablation gains. The evidence is stronger for |Q2|(0) than for |Q2|_(ring atoms) in SHAP magnitude, although |Q2|_(ring atoms) remains dominated by Ring.
+
+Not supported by the current normalized ML results: the broad expectation that both |Q2|(1) and |Q2|(-1) should show substantially greater basis-set sensitivity. |Q2|(1) has a modest positive ablation Delta R2, but |Q2|(-1) does not. Reverse classification also does not show elevated basis-set predictability for either +/-1 descriptor.
+
+Exploratory observation: Q2(0)zz shows the highest reverse classification accuracy, despite low basis-set SHAP and permutation importance relative to Ring. This discrepancy illustrates why classification, SHAP, and ablation should be treated as complementary rather than interchangeable evidence.
+
+Recommended manuscript wording:
+"For the normalized data, grouped repeated cross-validation, grouped SHAP, and joint-variable permutation importance consistently indicated that System/Ring identity dominated prediction and that Basis Set contributed comparatively little. Ablation results showed negligible additional predictive information from Basis Set for |Q2|_(ring atoms) and |Q2|(0). The evidence for enhanced basis-set sensitivity of the +/-1 descriptors was not uniform: |Q2|(1) showed a modest ablation gain, whereas |Q2|(-1) did not, and both reverse-classification results remained near the four-class random baseline. These results provide a complementary data-driven indication, rather than proof, of basis-set dependence or independence."

@@ -1,0 +1,529 @@
+dataset,target,metric,value
+norm,|Q2|_(ring atoms),mean_absolute_difference,0.0026875000000000024
+norm,|Q2|_(ring atoms),coefficient_of_variation_across_basis_sets,0.006284881004588639
+norm,|Q2|_(ring atoms),maximum_range_across_basis_sets,0.014000000000000012
+norm,|Q2|_(ring atoms),mean_absolute_difference,0.025500000000000002
+norm,|Q2|_(ring atoms),coefficient_of_variation_across_basis_sets,0.08386754433909127
+norm,|Q2|_(ring atoms),maximum_range_across_basis_sets,0.125
+norm,|Q2|_(ring atoms),mean_absolute_difference,0.006750000000000006
+norm,|Q2|_(ring atoms),coefficient_of_variation_across_basis_sets,0.015034675065085105
+norm,|Q2|_(ring atoms),maximum_range_across_basis_sets,0.03500000000000003
+norm,|Q2|_(ring atoms),mean_absolute_difference,0.01156249999999999
+norm,|Q2|_(ring atoms),coefficient_of_variation_across_basis_sets,0.028096213268099326
+norm,|Q2|_(ring atoms),maximum_range_across_basis_sets,0.05799999999999994
+norm,|Q2|_(ring atoms),mean_absolute_difference,0.006062500000000005
+norm,|Q2|_(ring atoms),coefficient_of_variation_across_basis_sets,0.022255496062869688
+norm,|Q2|_(ring atoms),maximum_range_across_basis_sets,0.03200000000000003
+norm,|Q2|_(ring atoms),mean_absolute_difference,0.013812499999999991
+norm,|Q2|_(ring atoms),coefficient_of_variation_across_basis_sets,0.0363322183865472
+norm,|Q2|_(ring atoms),maximum_range_across_basis_sets,0.07299999999999995
+norm,|Q2|_(ring atoms),mean_absolute_difference,0.013874999999999992
+norm,|Q2|_(ring atoms),coefficient_of_variation_across_basis_sets,0.03620110203705628
+norm,|Q2|_(ring atoms),maximum_range_across_basis_sets,0.07299999999999995
+norm,|Q2|_(ring atoms),mean_absolute_difference,0.02325
+norm,|Q2|_(ring atoms),coefficient_of_variation_across_basis_sets,0.07858089147258915
+norm,|Q2|_(ring atoms),maximum_range_across_basis_sets,0.11399999999999999
+norm,|Q2|_(ring atoms),mean_absolute_difference,0.014624999999999992
+norm,|Q2|_(ring atoms),coefficient_of_variation_across_basis_sets,0.033231049026494985
+norm,|Q2|_(ring atoms),maximum_range_across_basis_sets,0.07299999999999995
+norm,|Q2|_(ring atoms),mean_absolute_difference,0.01181249999999999
+norm,|Q2|_(ring atoms),coefficient_of_variation_across_basis_sets,0.029091917602140707
+norm,|Q2|_(ring atoms),maximum_range_across_basis_sets,0.05899999999999994
+norm,|Q2|_(ring atoms),mean_absolute_difference,0.006249999999999985
+norm,|Q2|_(ring atoms),coefficient_of_variation_across_basis_sets,0.022596360772351453
+norm,|Q2|_(ring atoms),maximum_range_across_basis_sets,0.03299999999999992
+norm,|Q2|_(ring atoms),mean_absolute_difference,0.013874999999999992
+norm,|Q2|_(ring atoms),coefficient_of_variation_across_basis_sets,0.03689403645792439
+norm,|Q2|_(ring atoms),maximum_range_across_basis_sets,0.07399999999999995
+norm,|Q2|_(ring atoms),mean_absolute_difference,0.01068750000000001
+norm,|Q2|_(ring atoms),coefficient_of_variation_across_basis_sets,0.02659120218035517
+norm,|Q2|_(ring atoms),maximum_range_across_basis_sets,0.05600000000000005
+norm,|Q2|_(ring atoms),mean_absolute_difference,0.006062499999999985
+norm,|Q2|_(ring atoms),coefficient_of_variation_across_basis_sets,0.022008494120182024
+norm,|Q2|_(ring atoms),maximum_range_across_basis_sets,0.03199999999999992
+norm,|Q2|_(ring atoms),mean_absolute_difference,0.007437500000000007
+norm,|Q2|_(ring atoms),coefficient_of_variation_across_basis_sets,0.01695048219185009
+norm,|Q2|_(ring atoms),maximum_range_across_basis_sets,0.03500000000000003
+norm,|Q2|_(ring atoms),mean_absolute_difference,0.01199999999999999
+norm,|Q2|_(ring atoms),coefficient_of_variation_across_basis_sets,0.03272329191201059
+norm,|Q2|_(ring atoms),maximum_range_across_basis_sets,0.061999999999999944
+norm,|Q2|_(ring atoms),mean_absolute_difference,0.029249999999999984
+norm,|Q2|_(ring atoms),coefficient_of_variation_across_basis_sets,0.11463925796111508
+norm,|Q2|_(ring atoms),maximum_range_across_basis_sets,0.15599999999999992
+norm,|Q2|_(ring atoms),mean_absolute_difference,0.03593749999999998
+norm,|Q2|_(ring atoms),coefficient_of_variation_across_basis_sets,0.08954834788941178
+norm,|Q2|_(ring atoms),maximum_range_across_basis_sets,0.17099999999999993
+norm,|Q2|_(ring atoms),mean_absolute_difference,0.04549999999999999
+norm,|Q2|_(ring atoms),coefficient_of_variation_across_basis_sets,0.12961945938062344
+norm,|Q2|_(ring atoms),maximum_range_across_basis_sets,0.238
+norm,|Q2|_(ring atoms),mean_absolute_difference,0.006999999999999985
+norm,|Q2|_(ring atoms),coefficient_of_variation_across_basis_sets,0.023033331068819263
+norm,|Q2|_(ring atoms),maximum_range_across_basis_sets,0.03499999999999992
+norm,|Q2|_(ring atoms),mean_absolute_difference,0.0234375
+norm,|Q2|_(ring atoms),coefficient_of_variation_across_basis_sets,0.06536907405973354
+norm,|Q2|_(ring atoms),maximum_range_across_basis_sets,0.119
+norm,|Q2|_(ring atoms),mean_within_group_basis_set_variance,0.0020803253968253955
+norm,|Q2|_(ring atoms),total_variance,0.013075850258175559
+norm,|Q2|_(ring atoms),mixed_model_basis_set_fixed_effect_variance,0.010590390739944187
+norm,Q2_(zz-ring atoms),mean_absolute_difference,0.008937500000000008
+norm,Q2_(zz-ring atoms),coefficient_of_variation_across_basis_sets,0.021609197124511773
+norm,Q2_(zz-ring atoms),maximum_range_across_basis_sets,0.04300000000000004
+norm,Q2_(zz-ring atoms),mean_absolute_difference,0.035812500000000004
+norm,Q2_(zz-ring atoms),coefficient_of_variation_across_basis_sets,0.24852103570343384
+norm,Q2_(zz-ring atoms),maximum_range_across_basis_sets,0.18500000000000003
+norm,Q2_(zz-ring atoms),mean_absolute_difference,0.01249999999999999
+norm,Q2_(zz-ring atoms),coefficient_of_variation_across_basis_sets,0.030839726554599736
+norm,Q2_(zz-ring atoms),maximum_range_across_basis_sets,0.06499999999999995
+norm,Q2_(zz-ring atoms),mean_absolute_difference,0.017312499999999995
+norm,Q2_(zz-ring atoms),coefficient_of_variation_across_basis_sets,0.04853443651818745
+norm,Q2_(zz-ring atoms),maximum_range_across_basis_sets,0.09099999999999997
+norm,Q2_(zz-ring atoms),mean_absolute_difference,0.008187500000000007
+norm,Q2_(zz-ring atoms),coefficient_of_variation_across_basis_sets,0.054698467716482506
+norm,Q2_(zz-ring atoms),maximum_range_across_basis_sets,0.040000000000000036
+norm,Q2_(zz-ring atoms),mean_absolute_difference,0.0233125
+norm,Q2_(zz-ring atoms),coefficient_of_variation_across_basis_sets,0.07494776766393334
+norm,Q2_(zz-ring atoms),maximum_range_across_basis_sets,0.123
+norm,Q2_(zz-ring atoms),mean_absolute_difference,0.04899999999999999
+norm,Q2_(zz-ring atoms),coefficient_of_variation_across_basis_sets,0.23673497951853764
+norm,Q2_(zz-ring atoms),maximum_range_across_basis_sets,0.25099999999999995
+norm,Q2_(zz-ring atoms),mean_absolute_difference,0.028312500000000004
+norm,Q2_(zz-ring atoms),coefficient_of_variation_across_basis_sets,0.30213033675652307
+norm,Q2_(zz-ring atoms),maximum_range_across_basis_sets,0.14600000000000002
+norm,Q2_(zz-ring atoms),mean_absolute_difference,0.042312499999999996
+norm,Q2_(zz-ring atoms),coefficient_of_variation_across_basis_sets,0.1551230921947885
+norm,Q2_(zz-ring atoms),maximum_range_across_basis_sets,0.20999999999999996
+norm,Q2_(zz-ring atoms),mean_absolute_difference,0.019187499999999996
+norm,Q2_(zz-ring atoms),coefficient_of_variation_across_basis_sets,0.053783928692790146
+norm,Q2_(zz-ring atoms),maximum_range_across_basis_sets,0.09999999999999998
+norm,Q2_(zz-ring atoms),mean_absolute_difference,0.008062500000000007
+norm,Q2_(zz-ring atoms),coefficient_of_variation_across_basis_sets,0.05487295459751791
+norm,Q2_(zz-ring atoms),maximum_range_across_basis_sets,0.039000000000000035
+norm,Q2_(zz-ring atoms),mean_absolute_difference,0.026375000000000003
+norm,Q2_(zz-ring atoms),coefficient_of_variation_across_basis_sets,0.08317553815862207
+norm,Q2_(zz-ring atoms),maximum_range_across_basis_sets,0.138
+norm,Q2_(zz-ring atoms),mean_absolute_difference,0.039874999999999994
+norm,Q2_(zz-ring atoms),coefficient_of_variation_across_basis_sets,0.17444378616809364
+norm,Q2_(zz-ring atoms),maximum_range_across_basis_sets,0.21099999999999997
+norm,Q2_(zz-ring atoms),mean_absolute_difference,0.004500000000000004
+norm,Q2_(zz-ring atoms),coefficient_of_variation_across_basis_sets,0.036973430079746114
+norm,Q2_(zz-ring atoms),maximum_range_across_basis_sets,0.020000000000000018
+norm,Q2_(zz-ring atoms),mean_absolute_difference,0.03518749999999998
+norm,Q2_(zz-ring atoms),coefficient_of_variation_across_basis_sets,0.12750193461895887
+norm,Q2_(zz-ring atoms),maximum_range_across_basis_sets,0.17799999999999994
+norm,Q2_(zz-ring atoms),mean_absolute_difference,0.0248125
+norm,Q2_(zz-ring atoms),coefficient_of_variation_across_basis_sets,0.06690927469695662
+norm,Q2_(zz-ring atoms),maximum_range_across_basis_sets,0.121
+norm,Q2_(zz-ring atoms),mean_absolute_difference,0.0373125
+norm,Q2_(zz-ring atoms),coefficient_of_variation_across_basis_sets,0.33904596944924653
+norm,Q2_(zz-ring atoms),maximum_range_across_basis_sets,0.193
+norm,Q2_(zz-ring atoms),mean_absolute_difference,0.047937499999999994
+norm,Q2_(zz-ring atoms),coefficient_of_variation_across_basis_sets,0.12917885132425855
+norm,Q2_(zz-ring atoms),maximum_range_across_basis_sets,0.22199999999999998
+norm,Q2_(zz-ring atoms),mean_absolute_difference,0.059125
+norm,Q2_(zz-ring atoms),coefficient_of_variation_across_basis_sets,0.22436921951699765
+norm,Q2_(zz-ring atoms),maximum_range_across_basis_sets,0.31
+norm,Q2_(zz-ring atoms),mean_absolute_difference,0.009374999999999998
+norm,Q2_(zz-ring atoms),coefficient_of_variation_across_basis_sets,0.07878776938255477
+norm,Q2_(zz-ring atoms),maximum_range_across_basis_sets,0.045999999999999985
+norm,Q2_(zz-ring atoms),mean_absolute_difference,0.014437499999999992
+norm,Q2_(zz-ring atoms),coefficient_of_variation_across_basis_sets,0.060251928738354145
+norm,Q2_(zz-ring atoms),maximum_range_across_basis_sets,0.07599999999999996
+norm,Q2_(zz-ring atoms),mean_within_group_basis_set_variance,0.005149642857142855
+norm,Q2_(zz-ring atoms),total_variance,0.06128608376362594
+norm,Q2_(zz-ring atoms),mixed_model_basis_set_fixed_effect_variance,0.05466167421384699
+norm,|Q2|(0),mean_absolute_difference,0.0010000000000000009
+norm,|Q2|(0),coefficient_of_variation_across_basis_sets,0.002262038638187737
+norm,|Q2|(0),maximum_range_across_basis_sets,0.0050000000000000044
+norm,|Q2|(0),mean_absolute_difference,0.005312500000000005
+norm,|Q2|(0),coefficient_of_variation_across_basis_sets,0.016290262820813636
+norm,|Q2|(0),maximum_range_across_basis_sets,0.027000000000000024
+norm,|Q2|(0),mean_absolute_difference,0.002125000000000002
+norm,|Q2|(0),coefficient_of_variation_across_basis_sets,0.005285579604788968
+norm,|Q2|(0),maximum_range_across_basis_sets,0.01100000000000001
+norm,|Q2|(0),mean_absolute_difference,0.0004375000000000004
+norm,|Q2|(0),coefficient_of_variation_across_basis_sets,0.0010028039882234501
+norm,|Q2|(0),maximum_range_across_basis_sets,0.0020000000000000018
+norm,|Q2|(0),mean_absolute_difference,0.0010000000000000009
+norm,|Q2|(0),coefficient_of_variation_across_basis_sets,0.0029663254116481233
+norm,|Q2|(0),maximum_range_across_basis_sets,0.0050000000000000044
+norm,|Q2|(0),mean_absolute_difference,0.0008125000000000007
+norm,|Q2|(0),coefficient_of_variation_across_basis_sets,0.0017906423356853836
+norm,|Q2|(0),maximum_range_across_basis_sets,0.0040000000000000036
+norm,|Q2|(0),mean_absolute_difference,0.0012500000000000011
+norm,|Q2|(0),coefficient_of_variation_across_basis_sets,0.0027093272796134453
+norm,|Q2|(0),maximum_range_across_basis_sets,0.006000000000000005
+norm,|Q2|(0),mean_absolute_difference,0.005187500000000005
+norm,|Q2|(0),coefficient_of_variation_across_basis_sets,0.015564049352189488
+norm,|Q2|(0),maximum_range_across_basis_sets,0.026000000000000023
+norm,|Q2|(0),mean_absolute_difference,0.002187500000000002
+norm,|Q2|(0),coefficient_of_variation_across_basis_sets,0.0054865330396408965
+norm,|Q2|(0),maximum_range_across_basis_sets,0.01100000000000001
+norm,|Q2|(0),mean_absolute_difference,0.0006250000000000006
+norm,|Q2|(0),coefficient_of_variation_across_basis_sets,0.0013525347812842398
+norm,|Q2|(0),maximum_range_across_basis_sets,0.0030000000000000027
+norm,|Q2|(0),mean_absolute_difference,0.0009375000000000008
+norm,|Q2|(0),coefficient_of_variation_across_basis_sets,0.003118178983473654
+norm,|Q2|(0),maximum_range_across_basis_sets,0.0050000000000000044
+norm,|Q2|(0),mean_absolute_difference,0.0007500000000000007
+norm,|Q2|(0),coefficient_of_variation_across_basis_sets,0.0018165189381949436
+norm,|Q2|(0),maximum_range_across_basis_sets,0.0040000000000000036
+norm,|Q2|(0),mean_absolute_difference,0.0006250000000000006
+norm,|Q2|(0),coefficient_of_variation_across_basis_sets,0.0013539532760732114
+norm,|Q2|(0),maximum_range_across_basis_sets,0.0030000000000000027
+norm,|Q2|(0),mean_absolute_difference,0.0009375000000000008
+norm,|Q2|(0),coefficient_of_variation_across_basis_sets,0.002763921199885755
+norm,|Q2|(0),maximum_range_across_basis_sets,0.0050000000000000044
+norm,|Q2|(0),mean_absolute_difference,0.00037500000000000033
+norm,|Q2|(0),coefficient_of_variation_across_basis_sets,0.0008558664370311602
+norm,|Q2|(0),maximum_range_across_basis_sets,0.0020000000000000018
+norm,|Q2|(0),mean_absolute_difference,0.0016250000000000014
+norm,|Q2|(0),coefficient_of_variation_across_basis_sets,0.00396225944238638
+norm,|Q2|(0),maximum_range_across_basis_sets,0.008000000000000007
+norm,|Q2|(0),mean_absolute_difference,0.007000000000000006
+norm,|Q2|(0),coefficient_of_variation_across_basis_sets,0.02308293635993947
+norm,|Q2|(0),maximum_range_across_basis_sets,0.03700000000000003
+norm,|Q2|(0),mean_absolute_difference,0.009499999999999988
+norm,|Q2|(0),coefficient_of_variation_across_basis_sets,0.025851751552359987
+norm,|Q2|(0),maximum_range_across_basis_sets,0.04999999999999993
+norm,|Q2|(0),mean_absolute_difference,0.008874999999999987
+norm,|Q2|(0),coefficient_of_variation_across_basis_sets,0.024418555109191643
+norm,|Q2|(0),maximum_range_across_basis_sets,0.04699999999999993
+norm,|Q2|(0),mean_absolute_difference,0.002187500000000002
+norm,|Q2|(0),coefficient_of_variation_across_basis_sets,0.005809048604674947
+norm,|Q2|(0),maximum_range_across_basis_sets,0.010000000000000009
+norm,|Q2|(0),mean_absolute_difference,0.011187499999999989
+norm,|Q2|(0),coefficient_of_variation_across_basis_sets,0.03079252673116137
+norm,|Q2|(0),maximum_range_across_basis_sets,0.05899999999999994
+norm,|Q2|(0),mean_within_group_basis_set_variance,0.00013059920634920616
+norm,|Q2|(0),total_variance,0.0053770847676419915
+norm,|Q2|(0),mixed_model_basis_set_fixed_effect_variance,0.005160336786100357
+norm,Q2(0)zz,mean_absolute_difference,0.0010000000000000009
+norm,Q2(0)zz,coefficient_of_variation_across_basis_sets,0.0025018141280584542
+norm,Q2(0)zz,maximum_range_across_basis_sets,0.0050000000000000044
+norm,Q2(0)zz,mean_absolute_difference,0.006000000000000005
+norm,Q2(0)zz,coefficient_of_variation_across_basis_sets,0.019254337601686107
+norm,Q2(0)zz,maximum_range_across_basis_sets,0.031000000000000028
+norm,Q2(0)zz,mean_absolute_difference,0.002250000000000002
+norm,Q2(0)zz,coefficient_of_variation_across_basis_sets,0.0059510630068836555
+norm,Q2(0)zz,maximum_range_across_basis_sets,0.01200000000000001
+norm,Q2(0)zz,mean_absolute_difference,0.0006875000000000006
+norm,Q2(0)zz,coefficient_of_variation_across_basis_sets,0.0015801948907031883
+norm,Q2(0)zz,maximum_range_across_basis_sets,0.0030000000000000027
+norm,Q2(0)zz,mean_absolute_difference,0.0007500000000000007
+norm,Q2(0)zz,coefficient_of_variation_across_basis_sets,0.0025316455696202554
+norm,Q2(0)zz,maximum_range_across_basis_sets,0.0040000000000000036
+norm,Q2(0)zz,mean_absolute_difference,0.0007500000000000007
+norm,Q2(0)zz,coefficient_of_variation_across_basis_sets,0.0018260946837837413
+norm,Q2(0)zz,maximum_range_across_basis_sets,0.0040000000000000036
+norm,Q2(0)zz,mean_absolute_difference,0.01106250000000001
+norm,Q2(0)zz,coefficient_of_variation_across_basis_sets,0.037375745526839005
+norm,Q2(0)zz,maximum_range_across_basis_sets,0.049000000000000044
+norm,Q2(0)zz,mean_absolute_difference,0.008687500000000008
+norm,Q2(0)zz,coefficient_of_variation_across_basis_sets,0.03768269012388701
+norm,Q2(0)zz,maximum_range_across_basis_sets,0.03600000000000003
+norm,Q2(0)zz,mean_absolute_difference,0.007937500000000007
+norm,Q2(0)zz,coefficient_of_variation_across_basis_sets,0.0272215767436775
+norm,Q2(0)zz,maximum_range_across_basis_sets,0.04200000000000004
+norm,Q2(0)zz,mean_absolute_difference,0.0012500000000000011
+norm,Q2(0)zz,coefficient_of_variation_across_basis_sets,0.0027894057048651485
+norm,Q2(0)zz,maximum_range_across_basis_sets,0.006000000000000005
+norm,Q2(0)zz,mean_absolute_difference,0.0009375000000000008
+norm,Q2(0)zz,coefficient_of_variation_across_basis_sets,0.0031655587211142796
+norm,Q2(0)zz,maximum_range_across_basis_sets,0.0050000000000000044
+norm,Q2(0)zz,mean_absolute_difference,0.001125000000000001
+norm,Q2(0)zz,coefficient_of_variation_across_basis_sets,0.0028565535881279773
+norm,Q2(0)zz,maximum_range_across_basis_sets,0.006000000000000005
+norm,Q2(0)zz,mean_absolute_difference,0.006437499999999978
+norm,Q2(0)zz,coefficient_of_variation_across_basis_sets,0.02026916371154137
+norm,Q2(0)zz,maximum_range_across_basis_sets,0.027999999999999914
+norm,Q2(0)zz,mean_absolute_difference,0.005187499999999984
+norm,Q2(0)zz,coefficient_of_variation_across_basis_sets,0.023055515347747132
+norm,Q2(0)zz,maximum_range_across_basis_sets,0.026999999999999913
+norm,Q2(0)zz,mean_absolute_difference,0.007312499999999986
+norm,Q2(0)zz,coefficient_of_variation_across_basis_sets,0.024828503796220164
+norm,Q2(0)zz,maximum_range_across_basis_sets,0.038999999999999924
+norm,Q2(0)zz,mean_absolute_difference,0.002312500000000002
+norm,Q2(0)zz,coefficient_of_variation_across_basis_sets,0.005258530113904645
+norm,Q2(0)zz,maximum_range_across_basis_sets,0.01100000000000001
+norm,Q2(0)zz,mean_absolute_difference,0.008437500000000007
+norm,Q2(0)zz,coefficient_of_variation_across_basis_sets,0.028855402372555333
+norm,Q2(0)zz,maximum_range_across_basis_sets,0.04500000000000004
+norm,Q2(0)zz,mean_absolute_difference,0.009437499999999988
+norm,Q2(0)zz,coefficient_of_variation_across_basis_sets,0.02552208064587564
+norm,Q2(0)zz,maximum_range_across_basis_sets,0.04899999999999993
+norm,Q2(0)zz,mean_absolute_difference,0.009062499999999987
+norm,Q2(0)zz,coefficient_of_variation_across_basis_sets,0.029358149383560243
+norm,Q2(0)zz,maximum_range_across_basis_sets,0.04499999999999993
+norm,Q2(0)zz,mean_absolute_difference,0.00818749999999998
+norm,Q2(0)zz,coefficient_of_variation_across_basis_sets,0.03076382325994393
+norm,Q2(0)zz,maximum_range_across_basis_sets,0.038999999999999924
+norm,Q2(0)zz,mean_absolute_difference,0.013937499999999992
+norm,Q2(0)zz,coefficient_of_variation_across_basis_sets,0.04324263266165008
+norm,Q2(0)zz,maximum_range_across_basis_sets,0.07299999999999995
+norm,Q2(0)zz,mean_within_group_basis_set_variance,0.00023138888888888867
+norm,Q2(0)zz,total_variance,0.023020610441767057
+norm,Q2(0)zz,mixed_model_basis_set_fixed_effect_variance,0.022541848068340486
+norm,|Q2|(1),mean_absolute_difference,0.0028125000000000025
+norm,|Q2|(1),coefficient_of_variation_across_basis_sets,0.006786141411134404
+norm,|Q2|(1),maximum_range_across_basis_sets,0.013000000000000012
+norm,|Q2|(1),mean_absolute_difference,0.008812500000000008
+norm,|Q2|(1),coefficient_of_variation_across_basis_sets,0.029378531073446353
+norm,|Q2|(1),maximum_range_across_basis_sets,0.04400000000000004
+norm,|Q2|(1),mean_absolute_difference,0.003500000000000003
+norm,|Q2|(1),coefficient_of_variation_across_basis_sets,0.008703561222460002
+norm,|Q2|(1),maximum_range_across_basis_sets,0.015000000000000013
+norm,|Q2|(1),mean_absolute_difference,0.008312500000000007
+norm,|Q2|(1),coefficient_of_variation_across_basis_sets,0.025269513806293945
+norm,|Q2|(1),maximum_range_across_basis_sets,0.04400000000000004
+norm,|Q2|(1),mean_absolute_difference,0.010312499999999981
+norm,|Q2|(1),coefficient_of_variation_across_basis_sets,0.03256204185340999
+norm,|Q2|(1),maximum_range_across_basis_sets,0.04499999999999993
+norm,|Q2|(1),mean_absolute_difference,0.020874999999999998
+norm,|Q2|(1),coefficient_of_variation_across_basis_sets,0.05606060522994272
+norm,|Q2|(1),maximum_range_across_basis_sets,0.10599999999999998
+norm,|Q2|(1),mean_absolute_difference,0.0016875000000000015
+norm,|Q2|(1),coefficient_of_variation_across_basis_sets,0.0043830678869496405
+norm,|Q2|(1),maximum_range_across_basis_sets,0.007000000000000006
+norm,|Q2|(1),mean_absolute_difference,0.01118750000000001
+norm,|Q2|(1),coefficient_of_variation_across_basis_sets,0.042046574884292066
+norm,|Q2|(1),maximum_range_across_basis_sets,0.05700000000000005
+norm,|Q2|(1),mean_absolute_difference,0.0036250000000000032
+norm,|Q2|(1),coefficient_of_variation_across_basis_sets,0.008692013317272892
+norm,|Q2|(1),maximum_range_across_basis_sets,0.017000000000000015
+norm,|Q2|(1),mean_absolute_difference,0.007437500000000007
+norm,|Q2|(1),coefficient_of_variation_across_basis_sets,0.02171523263922449
+norm,|Q2|(1),maximum_range_across_basis_sets,0.03300000000000003
+norm,|Q2|(1),mean_absolute_difference,0.011062499999999982
+norm,|Q2|(1),coefficient_of_variation_across_basis_sets,0.03430756838952486
+norm,|Q2|(1),maximum_range_across_basis_sets,0.04999999999999993
+norm,|Q2|(1),mean_absolute_difference,0.020250000000000018
+norm,|Q2|(1),coefficient_of_variation_across_basis_sets,0.05795432661269022
+norm,|Q2|(1),maximum_range_across_basis_sets,0.09300000000000008
+norm,|Q2|(1),mean_absolute_difference,0.012437500000000011
+norm,|Q2|(1),coefficient_of_variation_across_basis_sets,0.044628418492227616
+norm,|Q2|(1),maximum_range_across_basis_sets,0.06600000000000006
+norm,|Q2|(1),mean_absolute_difference,0.006749999999999992
+norm,|Q2|(1),coefficient_of_variation_across_basis_sets,0.0350052861973538
+norm,|Q2|(1),maximum_range_across_basis_sets,0.03199999999999997
+norm,|Q2|(1),mean_absolute_difference,0.026125000000000002
+norm,|Q2|(1),coefficient_of_variation_across_basis_sets,0.0903133838757383
+norm,|Q2|(1),maximum_range_across_basis_sets,0.126
+norm,|Q2|(1),mean_absolute_difference,0.02243750000000002
+norm,|Q2|(1),coefficient_of_variation_across_basis_sets,0.062861392979349
+norm,|Q2|(1),maximum_range_across_basis_sets,0.09900000000000009
+norm,|Q2|(1),mean_absolute_difference,0.008562499999999987
+norm,|Q2|(1),coefficient_of_variation_across_basis_sets,0.02765514602538586
+norm,|Q2|(1),maximum_range_across_basis_sets,0.040999999999999925
+norm,|Q2|(1),mean_absolute_difference,0.014250000000000013
+norm,|Q2|(1),coefficient_of_variation_across_basis_sets,0.039646796400279016
+norm,|Q2|(1),maximum_range_across_basis_sets,0.07200000000000006
+norm,|Q2|(1),mean_absolute_difference,0.01150000000000001
+norm,|Q2|(1),coefficient_of_variation_across_basis_sets,0.04239056810284294
+norm,|Q2|(1),maximum_range_across_basis_sets,0.05900000000000005
+norm,|Q2|(1),mean_absolute_difference,0.010499999999999995
+norm,|Q2|(1),coefficient_of_variation_across_basis_sets,0.05364134530368158
+norm,|Q2|(1),maximum_range_across_basis_sets,0.04799999999999999
+norm,|Q2|(1),mean_absolute_difference,0.020062500000000018
+norm,|Q2|(1),coefficient_of_variation_across_basis_sets,0.06727531640129872
+norm,|Q2|(1),maximum_range_across_basis_sets,0.09300000000000008
+norm,|Q2|(1),mean_within_group_basis_set_variance,0.0008496507936507945
+norm,|Q2|(1),total_variance,0.01683866207687894
+norm,|Q2|(1),mixed_model_basis_set_fixed_effect_variance,0.0159822198201239
+norm,Q2(1)zz,mean_absolute_difference,0.0015625000000000014
+norm,Q2(1)zz,coefficient_of_variation_across_basis_sets,0.003960488982439122
+norm,Q2(1)zz,maximum_range_across_basis_sets,0.008000000000000007
+norm,Q2(1)zz,mean_absolute_difference,0.006562499999999992
+norm,Q2(1)zz,coefficient_of_variation_across_basis_sets,0.030785855337945162
+norm,Q2(1)zz,maximum_range_across_basis_sets,0.030999999999999972
+norm,Q2(1)zz,mean_absolute_difference,0.004250000000000004
+norm,Q2(1)zz,coefficient_of_variation_across_basis_sets,0.010998964846040666
+norm,Q2(1)zz,maximum_range_across_basis_sets,0.020000000000000018
+norm,Q2(1)zz,mean_absolute_difference,0.023
+norm,Q2(1)zz,coefficient_of_variation_across_basis_sets,0.0761206733656961
+norm,Q2(1)zz,maximum_range_across_basis_sets,0.122
+norm,Q2(1)zz,mean_absolute_difference,0.01118750000000001
+norm,Q2(1)zz,coefficient_of_variation_across_basis_sets,0.04045840468566443
+norm,Q2(1)zz,maximum_range_across_basis_sets,0.04700000000000004
+norm,Q2(1)zz,mean_absolute_difference,0.0251875
+norm,Q2(1)zz,coefficient_of_variation_across_basis_sets,0.07727104740002903
+norm,Q2(1)zz,maximum_range_across_basis_sets,0.129
+norm,Q2(1)zz,mean_absolute_difference,0.02593749999999999
+norm,Q2(1)zz,coefficient_of_variation_across_basis_sets,0.11350659567939202
+norm,Q2(1)zz,maximum_range_across_basis_sets,0.11799999999999994
+norm,Q2(1)zz,mean_absolute_difference,0.005687500000000005
+norm,Q2(1)zz,coefficient_of_variation_across_basis_sets,0.023466981527442723
+norm,Q2(1)zz,maximum_range_across_basis_sets,0.027000000000000024
+norm,Q2(1)zz,mean_absolute_difference,0.01181249999999999
+norm,Q2(1)zz,coefficient_of_variation_across_basis_sets,0.04657294594346007
+norm,Q2(1)zz,maximum_range_across_basis_sets,0.051999999999999935
+norm,Q2(1)zz,mean_absolute_difference,0.019062499999999996
+norm,Q2(1)zz,coefficient_of_variation_across_basis_sets,0.06250091780743831
+norm,Q2(1)zz,maximum_range_across_basis_sets,0.09599999999999997
+norm,Q2(1)zz,mean_absolute_difference,0.012250000000000011
+norm,Q2(1)zz,coefficient_of_variation_across_basis_sets,0.04190428495608127
+norm,Q2(1)zz,maximum_range_across_basis_sets,0.05800000000000005
+norm,Q2(1)zz,mean_absolute_difference,0.026687499999999996
+norm,Q2(1)zz,coefficient_of_variation_across_basis_sets,0.08583819579069392
+norm,Q2(1)zz,maximum_range_across_basis_sets,0.13
+norm,Q2(1)zz,mean_absolute_difference,0.035750000000000004
+norm,Q2(1)zz,coefficient_of_variation_across_basis_sets,0.2970616582967994
+norm,Q2(1)zz,maximum_range_across_basis_sets,0.187
+norm,Q2(1)zz,mean_absolute_difference,0.005374999999999998
+norm,Q2(1)zz,coefficient_of_variation_across_basis_sets,0.054732464785765426
+norm,Q2(1)zz,maximum_range_across_basis_sets,0.024999999999999994
+norm,Q2(1)zz,mean_absolute_difference,0.022625
+norm,Q2(1)zz,coefficient_of_variation_across_basis_sets,0.14335547072084548
+norm,Q2(1)zz,maximum_range_across_basis_sets,0.119
+norm,Q2(1)zz,mean_absolute_difference,0.026437500000000003
+norm,Q2(1)zz,coefficient_of_variation_across_basis_sets,0.08608407237269639
+norm,Q2(1)zz,maximum_range_across_basis_sets,0.134
+norm,Q2(1)zz,mean_absolute_difference,0.01162500000000001
+norm,Q2(1)zz,coefficient_of_variation_across_basis_sets,0.03972277157253944
+norm,Q2(1)zz,maximum_range_across_basis_sets,0.05400000000000005
+norm,Q2(1)zz,mean_absolute_difference,0.01293749999999999
+norm,Q2(1)zz,coefficient_of_variation_across_basis_sets,0.04289358799348242
+norm,Q2(1)zz,maximum_range_across_basis_sets,0.06099999999999994
+norm,Q2(1)zz,mean_absolute_difference,0.017750000000000005
+norm,Q2(1)zz,coefficient_of_variation_across_basis_sets,0.1215256873790249
+norm,Q2(1)zz,maximum_range_across_basis_sets,0.09400000000000003
+norm,Q2(1)zz,mean_absolute_difference,0.0031874999999999976
+norm,Q2(1)zz,coefficient_of_variation_across_basis_sets,0.028130072420962698
+norm,Q2(1)zz,maximum_range_across_basis_sets,0.015999999999999986
+norm,Q2(1)zz,mean_absolute_difference,0.016000000000000004
+norm,Q2(1)zz,coefficient_of_variation_across_basis_sets,0.11496348798421621
+norm,Q2(1)zz,maximum_range_across_basis_sets,0.08400000000000002
+norm,Q2(1)zz,mean_within_group_basis_set_variance,0.0017109365079365079
+norm,Q2(1)zz,total_variance,0.033923987378083754
+norm,Q2(1)zz,mixed_model_basis_set_fixed_effect_variance,0.03146628615447652
+norm,|Q2|(-1),mean_absolute_difference,0.0028125000000000025
+norm,|Q2|(-1),coefficient_of_variation_across_basis_sets,0.006786141411134404
+norm,|Q2|(-1),maximum_range_across_basis_sets,0.013000000000000012
+norm,|Q2|(-1),mean_absolute_difference,0.009125000000000008
+norm,|Q2|(-1),coefficient_of_variation_across_basis_sets,0.03028102118245597
+norm,|Q2|(-1),maximum_range_across_basis_sets,0.04600000000000004
+norm,|Q2|(-1),mean_absolute_difference,0.003500000000000003
+norm,|Q2|(-1),coefficient_of_variation_across_basis_sets,0.008703561222460002
+norm,|Q2|(-1),maximum_range_across_basis_sets,0.015000000000000013
+norm,|Q2|(-1),mean_absolute_difference,0.0030625000000000027
+norm,|Q2|(-1),coefficient_of_variation_across_basis_sets,0.007474371533720902
+norm,|Q2|(-1),maximum_range_across_basis_sets,0.014000000000000012
+norm,|Q2|(-1),mean_absolute_difference,0.0038750000000000034
+norm,|Q2|(-1),coefficient_of_variation_across_basis_sets,0.012503205420125722
+norm,|Q2|(-1),maximum_range_across_basis_sets,0.019000000000000017
+norm,|Q2|(-1),mean_absolute_difference,0.002125000000000002
+norm,|Q2|(-1),coefficient_of_variation_across_basis_sets,0.005441317586802127
+norm,|Q2|(-1),maximum_range_across_basis_sets,0.009000000000000008
+norm,|Q2|(-1),mean_absolute_difference,0.022562499999999992
+norm,|Q2|(-1),coefficient_of_variation_across_basis_sets,0.06103059732447819
+norm,|Q2|(-1),maximum_range_across_basis_sets,0.10599999999999998
+norm,|Q2|(-1),mean_absolute_difference,0.017187499999999988
+norm,|Q2|(-1),coefficient_of_variation_across_basis_sets,0.05221182061755846
+norm,|Q2|(-1),maximum_range_across_basis_sets,0.08099999999999996
+norm,|Q2|(-1),mean_absolute_difference,0.008625000000000008
+norm,|Q2|(-1),coefficient_of_variation_across_basis_sets,0.025863310634832392
+norm,|Q2|(-1),maximum_range_across_basis_sets,0.04600000000000004
+norm,|Q2|(-1),mean_absolute_difference,0.003187500000000003
+norm,|Q2|(-1),coefficient_of_variation_across_basis_sets,0.007723735672365796
+norm,|Q2|(-1),maximum_range_across_basis_sets,0.015000000000000013
+norm,|Q2|(-1),mean_absolute_difference,0.0036875000000000033
+norm,|Q2|(-1),coefficient_of_variation_across_basis_sets,0.012354432896945633
+norm,|Q2|(-1),maximum_range_across_basis_sets,0.019000000000000017
+norm,|Q2|(-1),mean_absolute_difference,0.0019375000000000017
+norm,|Q2|(-1),coefficient_of_variation_across_basis_sets,0.004688722156614456
+norm,|Q2|(-1),maximum_range_across_basis_sets,0.009000000000000008
+norm,|Q2|(-1),mean_absolute_difference,0.03175
+norm,|Q2|(-1),coefficient_of_variation_across_basis_sets,0.08837211318141494
+norm,|Q2|(-1),maximum_range_across_basis_sets,0.15400000000000003
+norm,|Q2|(-1),mean_absolute_difference,0.009750000000000009
+norm,|Q2|(-1),coefficient_of_variation_across_basis_sets,0.0318663639447018
+norm,|Q2|(-1),maximum_range_across_basis_sets,0.04300000000000004
+norm,|Q2|(-1),mean_absolute_difference,0.009687500000000009
+norm,|Q2|(-1),coefficient_of_variation_across_basis_sets,0.027503852113007016
+norm,|Q2|(-1),maximum_range_across_basis_sets,0.050000000000000044
+norm,|Q2|(-1),mean_absolute_difference,0.002250000000000002
+norm,|Q2|(-1),coefficient_of_variation_across_basis_sets,0.005573307987580156
+norm,|Q2|(-1),maximum_range_across_basis_sets,0.01100000000000001
+norm,|Q2|(-1),mean_absolute_difference,0.012875000000000011
+norm,|Q2|(-1),coefficient_of_variation_across_basis_sets,0.04680056301822294
+norm,|Q2|(-1),maximum_range_across_basis_sets,0.06500000000000006
+norm,|Q2|(-1),mean_absolute_difference,0.005750000000000005
+norm,|Q2|(-1),coefficient_of_variation_across_basis_sets,0.014490047910997133
+norm,|Q2|(-1),maximum_range_across_basis_sets,0.030000000000000027
+norm,|Q2|(-1),mean_absolute_difference,0.013500000000000012
+norm,|Q2|(-1),coefficient_of_variation_across_basis_sets,0.03900576005739313
+norm,|Q2|(-1),maximum_range_across_basis_sets,0.06900000000000006
+norm,|Q2|(-1),mean_absolute_difference,0.010062499999999988
+norm,|Q2|(-1),coefficient_of_variation_across_basis_sets,0.033441361776745095
+norm,|Q2|(-1),maximum_range_across_basis_sets,0.050999999999999934
+norm,|Q2|(-1),mean_absolute_difference,0.017437499999999988
+norm,|Q2|(-1),coefficient_of_variation_across_basis_sets,0.046152667166586295
+norm,|Q2|(-1),maximum_range_across_basis_sets,0.07799999999999996
+norm,|Q2|(-1),mean_within_group_basis_set_variance,0.0006901507936507938
+norm,|Q2|(-1),total_variance,0.008829261044176704
+norm,|Q2|(-1),mixed_model_basis_set_fixed_effect_variance,0.008084522390533786
+norm,Q2(-1)zz,mean_absolute_difference,0.0025000000000000022
+norm,Q2(-1)zz,coefficient_of_variation_across_basis_sets,0.006519104184467666
+norm,Q2(-1)zz,maximum_range_across_basis_sets,0.013000000000000012
+norm,Q2(-1)zz,mean_absolute_difference,0.008312499999999994
+norm,Q2(-1)zz,coefficient_of_variation_across_basis_sets,0.036851256918645124
+norm,Q2(-1)zz,maximum_range_across_basis_sets,0.03999999999999998
+norm,Q2(-1)zz,mean_absolute_difference,0.0039375000000000035
+norm,Q2(-1)zz,coefficient_of_variation_across_basis_sets,0.011095401186906285
+norm,Q2(-1)zz,maximum_range_across_basis_sets,0.020000000000000018
+norm,Q2(-1)zz,mean_absolute_difference,0.002937499999999982
+norm,Q2(-1)zz,coefficient_of_variation_across_basis_sets,0.008509919748514368
+norm,Q2(-1)zz,maximum_range_across_basis_sets,0.014999999999999902
+norm,Q2(-1)zz,mean_absolute_difference,0.004437500000000004
+norm,Q2(-1)zz,coefficient_of_variation_across_basis_sets,0.02217211997841099
+norm,Q2(-1)zz,maximum_range_across_basis_sets,0.02300000000000002
+norm,Q2(-1)zz,mean_absolute_difference,0.004124999999999976
+norm,Q2(-1)zz,coefficient_of_variation_across_basis_sets,0.011214630579548806
+norm,Q2(-1)zz,maximum_range_across_basis_sets,0.020999999999999908
+norm,Q2(-1)zz,mean_absolute_difference,0.082
+norm,Q2(-1)zz,coefficient_of_variation_across_basis_sets,0.34533806403812256
+norm,Q2(-1)zz,maximum_range_across_basis_sets,0.43
+norm,Q2(-1)zz,mean_absolute_difference,0.009625000000000009
+norm,Q2(-1)zz,coefficient_of_variation_across_basis_sets,0.07328281087929407
+norm,Q2(-1)zz,maximum_range_across_basis_sets,0.049000000000000044
+norm,Q2(-1)zz,mean_absolute_difference,0.06831250000000001
+norm,Q2(-1)zz,coefficient_of_variation_across_basis_sets,0.4497344066660439
+norm,Q2(-1)zz,maximum_range_across_basis_sets,0.35800000000000004
+norm,Q2(-1)zz,mean_absolute_difference,0.003187499999999982
+norm,Q2(-1)zz,coefficient_of_variation_across_basis_sets,0.008774167282962396
+norm,Q2(-1)zz,maximum_range_across_basis_sets,0.015999999999999903
+norm,Q2(-1)zz,mean_absolute_difference,0.004062500000000004
+norm,Q2(-1)zz,coefficient_of_variation_across_basis_sets,0.01982587798710731
+norm,Q2(-1)zz,maximum_range_across_basis_sets,0.020000000000000018
+norm,Q2(-1)zz,mean_absolute_difference,0.005374999999999984
+norm,Q2(-1)zz,coefficient_of_variation_across_basis_sets,0.015867116658528427
+norm,Q2(-1)zz,maximum_range_across_basis_sets,0.026999999999999913
+norm,Q2(-1)zz,mean_absolute_difference,0.1018125
+norm,Q2(-1)zz,coefficient_of_variation_across_basis_sets,0.40495199883638044
+norm,Q2(-1)zz,maximum_range_across_basis_sets,0.532
+norm,Q2(-1)zz,mean_absolute_difference,0.004750000000000004
+norm,Q2(-1)zz,coefficient_of_variation_across_basis_sets,0.03929525471520956
+norm,Q2(-1)zz,maximum_range_across_basis_sets,0.025000000000000022
+norm,Q2(-1)zz,mean_absolute_difference,0.08162499999999999
+norm,Q2(-1)zz,coefficient_of_variation_across_basis_sets,0.5644912325207242
+norm,Q2(-1)zz,maximum_range_across_basis_sets,0.43099999999999994
+norm,Q2(-1)zz,mean_absolute_difference,0.002999999999999982
+norm,Q2(-1)zz,coefficient_of_variation_across_basis_sets,0.008472810936186433
+norm,Q2(-1)zz,maximum_range_across_basis_sets,0.014999999999999902
+norm,Q2(-1)zz,mean_absolute_difference,0.014250000000000002
+norm,Q2(-1)zz,coefficient_of_variation_across_basis_sets,0.0770473147379637
+norm,Q2(-1)zz,maximum_range_across_basis_sets,0.07400000000000001
+norm,Q2(-1)zz,mean_absolute_difference,0.015249999999999986
+norm,Q2(-1)zz,coefficient_of_variation_across_basis_sets,0.04376301724470038
+norm,Q2(-1)zz,maximum_range_across_basis_sets,0.07799999999999996
+norm,Q2(-1)zz,mean_absolute_difference,0.09143749999999999
+norm,Q2(-1)zz,coefficient_of_variation_across_basis_sets,0.6051089616466765
+norm,Q2(-1)zz,maximum_range_across_basis_sets,0.481
+norm,Q2(-1)zz,mean_absolute_difference,0.007249999999999996
+norm,Q2(-1)zz,coefficient_of_variation_across_basis_sets,0.05515721445365375
+norm,Q2(-1)zz,maximum_range_across_basis_sets,0.03699999999999998
+norm,Q2(-1)zz,mean_absolute_difference,0.09081250000000002
+norm,Q2(-1)zz,coefficient_of_variation_across_basis_sets,0.3404089773554956
+norm,Q2(-1)zz,maximum_range_across_basis_sets,0.466
+norm,Q2(-1)zz,mean_within_group_basis_set_variance,0.014113944444444445
+norm,Q2(-1)zz,total_variance,0.0554064693057946
+norm,Q2(-1)zz,mixed_model_basis_set_fixed_effect_variance,0.03742069920930026

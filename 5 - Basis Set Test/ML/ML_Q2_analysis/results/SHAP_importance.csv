@@ -1,0 +1,25 @@
+dataset,target,variable,mean_abs_SHAP
+norm,|Q2|_(ring atoms),System,0.01956275649095604
+norm,|Q2|_(ring atoms),Ring,0.11456316663316958
+norm,|Q2|_(ring atoms),Basis Set,0.012748188050714775
+norm,Q2_(zz-ring atoms),System,0.024861938524502317
+norm,Q2_(zz-ring atoms),Ring,0.2881816286822325
+norm,Q2_(zz-ring atoms),Basis Set,0.016981395775073526
+norm,|Q2|(0),System,0.0031515076349405537
+norm,|Q2|(0),Ring,0.0770360607299945
+norm,|Q2|(0),Basis Set,0.002728281172773636
+norm,Q2(0)zz,System,0.009360269739010068
+norm,Q2(0)zz,Ring,0.19110984412331952
+norm,Q2(0)zz,Basis Set,0.004014113074252461
+norm,|Q2|(1),System,0.06170414985262988
+norm,|Q2|(1),Ring,0.10916244460674723
+norm,|Q2|(1),Basis Set,0.011184537366928543
+norm,Q2(1)zz,System,0.0589349494262777
+norm,Q2(1)zz,Ring,0.1993490588237227
+norm,Q2(1)zz,Basis Set,0.0075699203150171234
+norm,|Q2|(-1),System,0.006066609169647067
+norm,|Q2|(-1),Ring,0.11709842942272915
+norm,|Q2|(-1),Basis Set,0.010638084079100066
+norm,Q2(-1)zz,System,0.015376406900697581
+norm,Q2(-1)zz,Ring,0.25489065469270283
+norm,Q2(-1)zz,Basis Set,0.013239398795826206
